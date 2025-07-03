@@ -1,0 +1,37 @@
+query GetPersons {
+  persons {
+    id
+    name
+    initials
+    currentJobTitle
+    educations {
+      id
+      institution
+      degree
+      startDate
+      endDate
+    }
+    skills {
+      id
+      name
+      description
+      level
+    }
+    projects {
+      id
+      description
+      startDate
+      endDate
+    }
+    workExperiences {
+      id
+      jobTitle
+      startDate
+      endDate
+      company {
+        id
+        name
+      }
+    }
+  }
+}
