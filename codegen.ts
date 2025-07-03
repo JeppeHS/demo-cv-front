@@ -2,7 +2,7 @@
 import type { CodegenConfig } from '@graphql-codegen/cli';
 
 const config: CodegenConfig = {
-  schema: 'https://localhost:7175/graphql',
+  schema: 'https://democvapi.celepus.com/graphql',
   overwrite: true,
   documents: ['graphql/**/*.graphql'],
   generates: {
