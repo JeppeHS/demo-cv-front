@@ -1,4 +1,4 @@
-import { Education, WorkExperience } from '@/gql/generated/graphql';
+import { WorkExperience } from '@/gql/generated/graphql';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';

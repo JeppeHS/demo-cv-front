@@ -5,14 +5,15 @@ import { Box } from '@mui/material';
 import PersonItem from './PersonItem';
 
 const PersonList = () => {
-  const {data, error, loading} = useQuery(GetPersonsDocument, {
+  const { data } = useQuery(GetPersonsDocument, {
     fetchPolicy: 'cache-and-network'
   });
   const [persons, setPersons] = useState<Person[]>([]);
   
   useEffect(() => {
     if (data && data.persons) {
-      setPersons(data.persons);
+      // Temporary workaround
+      setPersons(data.persons.filter(p => !!p));
     }
   }, [data]);
 

@@ -1,8 +1,7 @@
 import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import dynamic from 'next/dynamic';
-import { Box, Container, Paper } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import PersonList from "@/components/PersonList";
 
 const geistSans = Geist({

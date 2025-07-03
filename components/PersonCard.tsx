@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Avatar, Paper, Stack, Chip } from '@mui/material';
+import { Box, Typography, Avatar, Paper } from '@mui/material';
 import { Person } from '@/gql/generated/graphql';
 
 interface OwnProps {

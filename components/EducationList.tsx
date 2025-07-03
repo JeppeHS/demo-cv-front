@@ -1,7 +1,6 @@
 import { Education } from '@/gql/generated/graphql';
 import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '@mui/material';
 import EducationItem from './EducationItem';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';  
 import SchoolIcon from '@mui/icons-material/School'; 
 
 

@@ -1,9 +1,3 @@
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Box, Paper } from '@mui/material';
 import { Person } from '@/gql/generated/graphql';
 import EducationList from './EducationList';
 import WorkExperienceList from './WorkExperienceList';
@@ -17,7 +11,7 @@ interface OwnProps {
 
 const PersonItem = (props: OwnProps) => {
   const { person } = props;
-  const { name, educations, workExperiences, projects, skills } = person
+  const { educations, workExperiences, projects, skills } = person
 
   return (
     <>
