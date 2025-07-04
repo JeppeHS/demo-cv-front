@@ -3,7 +3,6 @@ import { Accordion, AccordionDetails, AccordionSummary, Box, Typography } from '
 import EducationItem from './EducationItem';
 import SchoolIcon from '@mui/icons-material/School'; 
 
-
 interface OwnProps {
   educations: Education[];
 }
